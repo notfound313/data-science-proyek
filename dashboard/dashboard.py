@@ -80,7 +80,7 @@ def create_cluster_df(df):
 
 # Load cleaned data
 
-merged_df = pd.read_csv("merged_data.csv")
+merged_df = pd.read_csv("dashboard/merged_data.csv")
 column_date = ["dteday_hour", "dteday_day"]
 
 
